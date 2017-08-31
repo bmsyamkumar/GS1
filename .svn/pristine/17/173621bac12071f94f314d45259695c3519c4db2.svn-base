@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ZAPPY Demo" duration-ms="204524" started-at="2017-08-21T12:27:30Z" finished-at="2017-08-21T12:30:55Z">
+    <groups>
+      <group name="regression">
+        <method signature="Agility_CIS_Automation_Demo.Agility_CIS_Automation_Demo()[pri:0, instance:com.web.poc.script.Agility_CIS_Automation_Demo@757942a1]" name="Agility_CIS_Automation_Demo" class="com.web.poc.script.Agility_CIS_Automation_Demo"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Agility_CIS_Automation_Demo.Agility_CIS_Automation_Demo()[pri:0, instance:com.web.poc.script.Agility_CIS_Automation_Demo@757942a1]" name="Agility_CIS_Automation_Demo" class="com.web.poc.script.Agility_CIS_Automation_Demo"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="ZAPPY test" duration-ms="204524" started-at="2017-08-21T12:27:30Z" finished-at="2017-08-21T12:30:55Z">
+      <class name="com.web.poc.script.Agility_CIS_Automation_Demo">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.web.poc.script.Agility_CIS_Automation_Demo@757942a1]" name="beforeSuite" is-config="true" duration-ms="305" started-at="2017-08-21T17:57:30Z" finished-at="2017-08-21T17:57:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@65327f5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:com.web.poc.script.Agility_CIS_Automation_Demo@757942a1]" name="beforeTest" is-config="true" duration-ms="1744" started-at="2017-08-21T17:57:30Z" finished-at="2017-08-21T17:57:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@65327f5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.web.poc.script.Agility_CIS_Automation_Demo@757942a1]" name="beforeClass" is-config="true" duration-ms="12518" started-at="2017-08-21T17:57:32Z" finished-at="2017-08-21T17:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.poc.script.Agility_CIS_Automation_Demo@757942a1]" name="beforeMethod" is-config="true" duration-ms="428" started-at="2017-08-21T17:57:45Z" finished-at="2017-08-21T17:57:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.web.poc.script.Agility_CIS_Automation_Demo.Agility_CIS_Automation_Demo() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.web.poc.script.Agility_CIS_Automation_Demo@757942a1]" name="beforeMethod" is-config="true" duration-ms="5594" started-at="2017-08-21T17:57:45Z" finished-at="2017-08-21T17:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Agility_CIS_Automation_Demo()[pri:0, instance:com.web.poc.script.Agility_CIS_Automation_Demo@757942a1]" name="Agility_CIS_Automation_Demo" duration-ms="162131" started-at="2017-08-21T17:57:51Z" description="ZAPPY" finished-at="2017-08-21T18:00:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Agility_CIS_Automation_Demo -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.web.poc.script.Agility_CIS_Automation_Demo@757942a1]" name="afterMethod" is-config="true" duration-ms="441" started-at="2017-08-21T18:00:33Z" finished-at="2017-08-21T18:00:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.web.poc.script.Agility_CIS_Automation_Demo.Agility_CIS_Automation_Demo() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Agility_CIS_Automation_Demo status=SUCCESS method=Agility_CIS_Automation_Demo.Agility_CIS_Automation_Demo()[pri:0, instance:com.web.poc.script.Agility_CIS_Automation_Demo@757942a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.web.poc.script.Agility_CIS_Automation_Demo@757942a1]" name="afterClass" is-config="true" duration-ms="21589" started-at="2017-08-21T18:00:33Z" finished-at="2017-08-21T18:00:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.web.poc.script.Agility_CIS_Automation_Demo@757942a1]" name="afterTest" is-config="true" duration-ms="6" started-at="2017-08-21T18:00:55Z" finished-at="2017-08-21T18:00:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.web.poc.script.Agility_CIS_Automation_Demo@757942a1]" name="afterSuite" is-config="true" duration-ms="224" started-at="2017-08-21T18:00:55Z" finished-at="2017-08-21T18:00:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.web.poc.script.Agility_CIS_Automation_Demo -->
+    </test> <!-- ZAPPY test -->
+  </suite> <!-- ZAPPY Demo -->
+</testng-results>

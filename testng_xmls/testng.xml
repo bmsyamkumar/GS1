@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium-Automation" parallel="tests" thread-count="1"
+	preserve-order="false" configfailurepolicy="continue" junit="false"
+	skipfailedinvocationcounts="false" data-provider-thread-count="10"
+	group-by-instances="false" allow-return-values="false">
+	<listeners>
+		<listener class-name="com.web.automation.listeners.ExecutionListener" />
+	</listeners>
+	<!-- <test name="Test-chrome-Web" junit="false"
+		skipfailedinvocationcounts="false" preserve-order="true"
+		group-by-instances="false" allow-return-values="false">
+		<parameter name="platform" value="windows" />
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="54" />
+		<parameter name="environment" value="prod" />
+		<parameter name="userRegion" value="US" />
+		<parameter name="seleniumGrid" value="false" />
+		<parameter name="cloudExecution" value="false" />
+		<parameter name="emailReport" value="false" />
+		<groups>
+			<run>
+				<include name="smoke" />
+				<include name="regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.web.automation.scripts.LoginValidations" />
+			<class name="com.web.automation.scripts.EM001_CS_UsingCustomerNo" 
+				/> <class name="com.web.automation.scripts.EM002_CS_UsingSsnNo" /> <class 
+				name="com.web.automation.scripts.EM003_CS_NoRecordsFoundMsg" />
+			<class name="com.web.automation.scripts.CustomerSearchFieldValidations" />
+			<class name="com.mobile.automation.scripts.Mobile_Demo" />
+
+
+		</classes>
+	</test> -->
+
+
+
+
+	<!-- <test name="Test-chrome-Mobile" junit="false" 
+	skipfailedinvocationcounts="false" preserve-order="true" 
+	group-by-instances="false" allow-return-values="false"> 
+  	<parameter name="platform" value="android" /> 
+  	<parameter name="browser" value="chrome" /> 
+  	<parameter name="UDID" value="57c514b5" /> 
+  	<parameter name="deviceName" value="Redmi note3" /> 
+  	<parameter name="version" value="6.0" /> 
+  	<parameter name="environment" value="prod" />
+    <parameter name="userRegion" value="India" /> 
+    <parameter name="seleniumGrid" value="false" /> 
+    <parameter name="cloudExecution" value="false" /> 
+    <parameter name="emailReport" value="false" /> 
+    <groups> <run> 
+    <include name="smoke" /> 
+    <include name="regression" /> <exclude name="mobile" /> 
+    </run> 
+  </groups> 
+  <classes> 
+  <class name="com.mobile.automation.scripts.Mobile_Demo" /> 
+  </classes>
+   </test> -->
+
+<!-- <test name="Test-chrome-Mobile" junit="false"
+		skipfailedinvocationcounts="false" preserve-order="true"
+		group-by-instances="false" allow-return-values="false">
+		<parameter name="platform" value="android" />
+		<parameter name="browser" value="chrome" />
+		<parameter name="UDID" value="57c514b5" />
+		<parameter name="deviceName" value="Redmi note3" />
+		<parameter name="version" value="6.0" />
+		<parameter name="environment" value="prod" />
+		<parameter name="userRegion" value="India" />
+		<parameter name="cloudExecution" value="false" />
+		<parameter name="emailReport" value="false" />
+		<groups>
+			<run>
+				<include name="smoke" />
+				<include name="regression" />
+				<exclude name="mobile" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.web.automation.scripts.LoginValidations" />
+			<class name="com.web.automation.scripts.EM001_CS_UsingCustomerNo" 
+				/> <class name="com.web.automation.scripts.EM002_CS_UsingSsnNo" /> <class 
+				name="com.web.automation.scripts.EM003_CS_NoRecordsFoundMsg" />
+			<class name="com.web.automation.scripts.CustomerSearchFieldValidations" />
+			<class name="com.mobile.automation.scripts.Mobile_Demo" />
+
+		</classes>
+	</test> -->
+
+
+	<test name="Android-Native" preserve-order="true">
+
+		<parameter name="browserName" value="chrome" />
+
+		<parameter name="automationName" value="selenium" />
+
+		<parameter name="browserVersion" value="NA" />
+
+		<parameter name="platformName" value="Android" />
+
+		<parameter name="environment" value="local" />
+
+		<parameter name="app" value="C:\Users\IN01513\Desktop\BestWestern.apk" />
+
+		<parameter name="appPackage" value="com.bestwestern.android-1" />
+
+		<parameter name="appActivity"
+			value="om.bestwestern.android.activity.SplashActivity" />
+
+		<parameter name="platformVersion" value="6.0" />
+
+		<parameter name="appiumUrl" value="http://0.0.0.0:4723/wd/hub" />
+
+		<parameter name="deviceName" value="57c514b5" />
+
+		<parameter name="seleniumgridurl" value="local" />
+
+		
+		<classes>
+			<!-- <class name="com.web.automation.scripts.LoginValidations" />
+			<class name="com.web.automation.scripts.EM001_CS_UsingCustomerNo" 
+				/> <class name="com.web.automation.scripts.EM002_CS_UsingSsnNo" /> <class 
+				name="com.web.automation.scripts.EM003_CS_NoRecordsFoundMsg" />
+			<class name="com.web.automation.scripts.CustomerSearchFieldValidations" /> -->
+			<class name="com.mobile.automation.scripts.Mobile_Demo" />
+
+		</classes>
+	</test>
+
+
+</suite> 

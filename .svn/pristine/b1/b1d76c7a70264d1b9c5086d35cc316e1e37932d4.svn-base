@@ -1,0 +1,246 @@
+package com.web.poc.workflow;
+
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.sql.Date;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+import java.util.concurrent.ThreadLocalRandom;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.server.handler.SendKeys;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.google.common.base.Optional;
+import com.google.common.collect.ArrayListMultimap;
+import com.google.common.collect.Multimap;
+import com.web.automation.accelerators.ActionsLibrary;
+import com.web.automation.logs.ExtentLogs;
+import com.web.automation.pages.BasePage;
+import com.web.automation.utilities.ConfigManager;
+import com.web.poc.testObject.AgilityCISInputData;
+import com.web.poc.testObject.Agility_CIS;
+
+public class AgilityCISWorkflow extends BasePage {	
+	public WebDriver driver=ActionsLibrary.driver;
+	//public EventFiringWebDriver driver;
+	public ExtentLogs extentLogs = new ExtentLogs();
+	Optional<Long> timeoutInSecond = Optional.of(Long.parseLong("5"));
+
+	public AgilityCISWorkflow(WebDriver driver) {
+		super(driver);
+		
+	}
+	
+	
+	//Agility CIS Workflow Functions
+	public boolean fnAgility_CISEntry(AgilityCISInputData objData) throws Throwable
+	{
+		boolean blnStatus=false;
+		try
+		{
+			extentLogs.info("Agility CIS On Board Page Entry","Agility CIS On Board Page Entry");
+			//Click on Home Page
+			actionLib.Click(Agility_CIS.Login,"Agility CIS Login to On-Board");
+			Thread.sleep(5000);
+			fnPageWait();
+			extentLogs.info("Agility CIS Record Entry","Agility CIS Record Entry");
+			//Entry Data to Agility CIS
+			actionLib.Click(Agility_CIS.chkExistingCustomer,"Existing Customer");
+			actionLib.Click(Agility_CIS.chkPropertTypeTransfer,"Property Type Transfer");
+			//Enter Data to Find
+			driver.findElement(Agility_CIS.edtAddress).sendKeys(Keys.ENTER);
+			driver.findElement(Agility_CIS.edtAddress).sendKeys("22 B");
+			Thread.sleep(5000);
+			WebElement eleSearch=driver.findElement(By.xpath("/html/body/div[3]"));
+			List<WebElement> eleAllDiv=eleSearch.findElements(By.tagName("div"));
+			System.out.println(eleAllDiv.size());
+			outer: for(int j=0;j<eleAllDiv.size();j++)
+			{
+				List<WebElement> elSpan=eleAllDiv.get(j).findElements(By.tagName("span"));
+				System.out.println(elSpan.size());
+				for(int k=0;k<elSpan.size();k++)
+				{
+					String strText=elSpan.get(k).getText();
+					System.out.println(strText);
+					if(strText.equals("Bourke Street, Melbourne, Victoria, Australia"))
+					{
+						elSpan.get(k).click();
+						System.out.println("Click Successfully");
+						break outer;
+					}
+				}
+			}
+			System.out.println("Test");
+			Thread.sleep(4000);
+			actionLib.Click(Agility_CIS.btnSearch,"Search Supply Address");
+			Thread.sleep(5000);
+			fnPageWait();
+			WebElement eleTable=driver.findElement(By.xpath("//*[@id='h-plan-picker-AddressSearch']/table"));
+			List<WebElement> eleTR=eleTable.findElements(By.tagName("tr"));
+			System.out.println(eleTR.size());
+			for(int i=1;i<eleTR.size();i++)
+			{
+				List<WebElement> eleButton=eleTR.get(i).findElements(By.tagName("td"));
+				System.out.println(eleButton.size());
+				List<WebElement> btnViewPrice=eleButton.get(2).findElements(By.tagName("a"));
+				System.out.println(btnViewPrice.size());
+				btnViewPrice.get(0).click();
+				Thread.sleep(4000);
+				fnPageWait();
+				String strText=driver.findElement(By.id("errorMsg")).getText();
+				if(strText.isEmpty())
+				{
+					WebElement elePrice=driver.findElement(By.xpath("//li[@class='button']/a"));
+					if(elePrice!=null)
+					{
+						elePrice.click();
+						Thread.sleep(5000);
+						System.out.println("Price Click");
+					break;
+				}
+				}
+			}
+			fnPageWait();
+			actionLib.Click(Agility_CIS.btnNext,"Next");
+			Thread.sleep(5000);
+			fnPageWait();
+			actionLib.Click(Agility_CIS.chkResidentiat,"Residential");
+			fnPageWait();
+			actionLib.Click(Agility_CIS.chkRental,"Rental");
+			actionLib.selectByValue(Agility_CIS.cboTitle,objData.Title,"Title");
+			actionLib.type(Agility_CIS.txtFirstName,objData.First_Name,"First Name");
+			actionLib.type(Agility_CIS.txtLastName,objData.Last_Name,"Last Name");
+			actionLib.type(Agility_CIS.txtMobileNo,"8899889988999","Mobile No");
+			actionLib.type(Agility_CIS.txtLandLine,"8897689988999","LandLine");
+			actionLib.type(Agility_CIS.txtEmail,objData.Email,"Email");
+			actionLib.type(Agility_CIS.textReEmail,objData.Retype_Email,"Retype Email");
+			driver.findElement(By.id("DateOfBirth")).click();
+			Thread.sleep(5000);
+			actionLib.Click(By.xpath("//*[@id='ui-datepicker-div']/table/tbody/tr[2]/td[3]/a"),"Enter Date of Birth");
+			actionLib.selectByValue(Agility_CIS.cboIDType,"Passport","Type of ID");
+			actionLib.type(Agility_CIS.txtPassport,objData.Type_of_ID,"Passport No");
+			actionLib.Click(Agility_CIS.chkAdditionalContact,"Additional Contact No");
+			actionLib.type(Agility_CIS.txtStreatAddress,objData.Street_Address,"Street Address");
+			actionLib.type(Agility_CIS.txtSubRub,objData.Subrub,"Subrub");
+			actionLib.selectByValue(Agility_CIS.cboState,objData.State,"State");
+			actionLib.type(Agility_CIS.txtPinCode,"7754676","Postal Code");
+			actionLib.Click(Agility_CIS.btnNext,"Next");
+			actionLib.Click(Agility_CIS.chkBillingOptionEmail,"Billing Options Invoice No");
+			actionLib.Click(Agility_CIS.chkDirectDebit,"Direct Debit No");
+			actionLib.Click(Agility_CIS.chkMedicalSupport,"Critical Medical Support No");
+			actionLib.Click(Agility_CIS.btnNext,"Next");
+			//Verify the Entrty
+			extentLogs.info("Agility CIS Entry Verification","Agility CIS Entry Verification");
+			extentLogs.pass(fnGetText(Agility_CIS.lblExistingCustomer1),fnGetText(Agility_CIS.lblExistingCustomer));
+			extentLogs.pass(fnGetText(Agility_CIS.lblMovingProperty1),fnGetText(Agility_CIS.lblMovingProperty));
+			extentLogs.pass(fnGetText(Agility_CIS.lblyourAddress1),fnGetText(Agility_CIS.lblyourAddress));
+			extentLogs.pass(fnGetText(Agility_CIS.lblStreatNo1),fnGetText(Agility_CIS.lblStreatNo));
+			extentLogs.pass(fnGetText(Agility_CIS.lblStreatType1),fnGetText(Agility_CIS.lblStreatType));
+			extentLogs.pass(fnGetText(Agility_CIS.lblCitySubrub1),fnGetText(Agility_CIS.lblCitySubrub));
+			extentLogs.pass(fnGetText(Agility_CIS.lblPostalCode1),fnGetText(Agility_CIS.lblPostalCode));
+			extentLogs.pass(fnGetText(Agility_CIS.lblChooseAddress1),fnGetText(Agility_CIS.lblChooseAddress1));
+			extentLogs.pass(fnGetText(Agility_CIS.lblSelectYourProduct1),fnGetText(Agility_CIS.lblSelectYourProduct1));
+			extentLogs.pass(fnGetText(Agility_CIS.lblResidenceType1),fnGetText(Agility_CIS.lblResidenceType));
+			extentLogs.pass(fnGetText(Agility_CIS.lblSignUp1),fnGetText(Agility_CIS.lblSignUp));
+			extentLogs.pass(fnGetText(Agility_CIS.lbltitle1),fnGetText(Agility_CIS.lbltitle));
+			extentLogs.pass(fnGetText(Agility_CIS.lblFirstName1),fnGetText(Agility_CIS.lblFirstName));
+			extentLogs.pass(fnGetText(Agility_CIS.lblLastName1),fnGetText(Agility_CIS.lblLastName));
+			extentLogs.pass(fnGetText(Agility_CIS.lblMobile1),fnGetText(Agility_CIS.lblMobile));
+			extentLogs.pass(fnGetText(Agility_CIS.lblLandLine1),fnGetText(Agility_CIS.lblLandLine));
+			extentLogs.pass(fnGetText(Agility_CIS.lblEmail1),fnGetText(Agility_CIS.lblEmail));
+			extentLogs.pass(fnGetText(Agility_CIS.lblReTypeEmail1),fnGetText(Agility_CIS.lblReTypeEmail));
+			extentLogs.pass(fnGetText(Agility_CIS.lblDateOfBirth1),fnGetText(Agility_CIS.lblDateOfBirth));
+			extentLogs.pass(fnGetText(Agility_CIS.lblTypeOfID1),fnGetText(Agility_CIS.lblTypeOfID));
+			extentLogs.pass(fnGetText(Agility_CIS.lblPassportNo1),fnGetText(Agility_CIS.lblPassportNo));
+			extentLogs.pass(fnGetText(Agility_CIS.lblAdditionalContact1),fnGetText(Agility_CIS.lblAdditionalContact));
+			extentLogs.pass(fnGetText(Agility_CIS.lblStreatAddress1),fnGetText(Agility_CIS.lblStreatAddress));
+			extentLogs.pass(fnGetText(Agility_CIS.lblSubrub1),fnGetText(Agility_CIS.lblSubrub));
+			extentLogs.pass(fnGetText(Agility_CIS.lblState1),fnGetText(Agility_CIS.lblState));
+			extentLogs.pass(fnGetText(Agility_CIS.lblPostCode1),fnGetText(Agility_CIS.lblPostCode));
+			extentLogs.pass(fnGetText(Agility_CIS.lblOtherInfo11),fnGetText(Agility_CIS.lblOtherInfo1));
+			extentLogs.pass(fnGetText(Agility_CIS.lblOtherInfo21),fnGetText(Agility_CIS.lblOtherInfo2));
+			extentLogs.pass(fnGetText(Agility_CIS.lblOtherInfo31),fnGetText(Agility_CIS.lblOtherInfo3));
+			//Digital Signature
+			actionLib.Click(Agility_CIS.btnClearDigital,"Clear Digital Signature");
+			WebElement eleSig=driver.findElement(Agility_CIS.canvasDigital);
+			Actions actionBuilder=new Actions(driver);          
+			Action drawOnCanvas=actionBuilder
+			                .contextClick(eleSig)
+			                .moveToElement(eleSig,8,8)
+			                .clickAndHold(eleSig)
+			                .moveByOffset(120, 120)
+			                .moveByOffset(60,70)
+			                .moveByOffset(-140,-140)
+			               // .clickAndHold(eleSig)
+			               // .moveByOffset(90, 40)
+			               // .moveByOffset(50,80)
+			               // .moveByOffset(-120,-120)
+			               // .release(eleSig)
+			                .build();
+			drawOnCanvas.perform();
+			//Click Terms and Condition
+			actionLib.Click(Agility_CIS.chkTermandCondition,"Accept Terms and Condition");
+			Thread.sleep(5000);									
+			actionLib.Click(Agility_CIS.btnFinish,"Finish");
+			String strText=actionLib.getElementText(Agility_CIS.lblSuccess,"Successfull Entry Page");
+			System.out.println(strText);
+			Thread.sleep(5000);
+			if(strText.equals("SUCCESS"))
+			{
+				blnStatus=true;
+			}
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+			blnStatus=false;
+		}
+		return blnStatus;
+	}
+
+	
+	
+	public String fnGetText(By loc) throws Throwable
+	{
+		String strText="";
+		try
+		{
+			strText=actionLib.getElementText(loc, "Agility CIS Form Details");
+		}
+		catch(Exception e)
+		{
+			
+		}
+		return strText;
+	}
+	
+	public void fnPageWait() throws InterruptedException
+	{
+		WebElement eleLoader=driver.findElement(By.className("loader-div"));
+		System.out.println(eleLoader.getAttribute("style"));
+		while(!eleLoader.getAttribute("style").contains("display: none;"))
+		{
+			Thread.sleep(5000);
+			System.out.println("Test1");				
+		}
+	}
+}

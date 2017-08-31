@@ -1,0 +1,4 @@
+18/08/2017 01:01:27	INFO 	ZAPPY_Automation_Demo_1		Staring the class
+18/08/2017 01:01:27	DEBUG	ZAPPY_Automation_Demo_1		In Before Class method inside TestEngineWeb.
+18/08/2017 01:01:33	INFO 	ZAPPY_Automation_Demo_1		Info: navigating URL : 'http://signupdemo.agilitycis.com/'
+18/08/2017 01:04:13	INFO 	ZAPPY_Automation_Demo_1		Stopping the class

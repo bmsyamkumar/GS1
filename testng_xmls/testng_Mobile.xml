@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE suite SYSTEM 'http://testng.org/testng-1.0.dtd'>
+<suite name='ATD CRM Automation test suite' configfailurepolicy='continue' parallel='tests' thread-count='3'>
+
+<parameter name='suiteExecuted' value='Regression' />
+<parameter name='executionType' value='Parallel' />
+<listeners>
+	<!-- <listener class-name="org.uncommons.reportng.HTMLReporter" />
+	<listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> -->
+	<listener class-name="com.web.automation.listeners.ExecutionListener" />
+	<!-- <listener class-name="com.atd.utilities.AssignTestPriorityTransformer" /> -->
+</listeners>
+
+
+<test name="Test-chrome-Mobile" junit="false"
+		skipfailedinvocationcounts="false" preserve-order="true"
+		group-by-instances="false" allow-return-values="false">
+		<parameter name="platform" value="android" />
+		<parameter name="browser" value="android_device" />
+		<parameter name="UDID" value="57c514b5" />
+		<parameter name="deviceName" value="Redmi note3" />
+		<parameter name="version" value="6.0" />
+		<parameter name="environment" value="prod" />
+		<parameter name="userRegion" value="India" />
+		<parameter name="cloudExecution" value="false" />
+		<parameter name="emailReport" value="false" />
+		<groups>
+			<run>
+				<include name="smoke" />
+				<include name="regression" />
+				<!-- <exclude name="mobile" /> -->
+			</run>
+		</groups>
+		<classes>
+			 <class name="com.web.automation.scripts.LoginValidations" />
+			<!--<class name="com.web.automation.scripts.EM001_CS_UsingCustomerNo" 
+				/> <class name="com.web.automation.scripts.EM002_CS_UsingSsnNo" /> <class 
+				name="com.web.automation.scripts.EM003_CS_NoRecordsFoundMsg" />
+			<class name="com.web.automation.scripts.CustomerSearchFieldValidations" /> -->
+			<!-- <class name="com.web.automation.scripts.Mobile_Demo" /> -->
+
+		</classes>
+	</test>
+	<!-- <test name="Android-Native" preserve-order='true'>
+			<parameter name="browserName" value="chrome"></parameter>
+			<parameter name="automationName" value="selenium"></parameter>
+			<parameter name="browserVersion" value="NA"></parameter>
+			<parameter name="platformName" value="Android"></parameter>
+			<parameter name="environment" value="local"></parameter>
+			<parameter name="app" value="C:\Users\IN01513\Desktop\BestWestern.apk"></parameter>
+			<parameter name="appPackage" value="com.bestwestern.android-1"></parameter>
+			<parameter name="appActivity" value="com.bestwestern.android.activity.SplashActivity"></parameter>
+			<parameter name="platformVersion" value="6.0"></parameter>
+			<parameter name="appiumUrl" value="http://0.0.0.0:4723/wd/hub"></parameter>
+			<parameter name="deviceName" value="57c514b5"></parameter>
+			<parameter name="seleniumgridurl" value="local"></parameter>
+		 <classes>
+		 <class name="com.mobile.automation.scripts.Mobile_Demo" />
+			<class name="com.CRM.mobile.login.scripts.ATD_DynamicsLogin">
+				 <methods>
+			<parameter name="userrole" value="manager"></parameter>
+					 <include name="verifyTWXUserlogin" />
+					<include name="verifySuccessfullLogin" />
+					 <include name="verifyLoginWithInvalidCredentials" />
+					 <include name="verifyLoginWithoutLocationAssigned" />
+					 <include name="verifyLoginForLimitAccess" />
+					 <include name="verifyLoginMandatoryFields" />
+					 <include name="verifyLoginWithOnlyLocation" />
+					 <include name="verifyRememberUser" />
+					 <include name="verifyLogin" />
+					 
+				</methods>
+			 </class>
+			<class name="com.crunchtime.mobile.impact.scripts.TC005_ImpVerifyVaildHostURL">
+				<methods>
+			<parameter name="userrole" value="manager"></parameter>
+					 <include name="verifyNetChefURLScreen" />
+					 <include name="verifyNetChefInvalidUrl" />
+					 <include name="verifyNetChefURLScreenthroughSettingIcon" />
+					 <include name="verifySaveNetChefURL" />
+					 <include name="verifyNetChefURLCancelUpdates" />
+					 <include name="verifyNetChefUrlRemoval" />
+				</methods>
+			 </class>
+			<class name="com.crunchtime.mobile.impact.scripts.TC006_ImpVerifyMenuScreen">
+				<methods>
+			<parameter name="userrole" value="manager"></parameter>
+					 <include name="verifyMenuScreen" />
+					 <include name="verifyUserOpenMenuScreenBySwipeLeftToRight" />
+					 <include name="verifyUserRedirectedToHome" />
+					 <include name="verifyMenuScreentWithOneLocation" />
+					 <include name="verifyUserRedirectedToChangeLocationScreen" />
+					 <include name="verifyUserRedirectedToHierachyScreen" />
+					 <include name="verifyUserRedirectedToEditDashboardScreen" />
+					 <include name="verifyLoginScreenAfterLogout" />
+				</methods>
+			 </class>
+			<class name="com.crunchtime.mobile.impact.scripts.TC007_ImpVerifyHomeScreen">
+				<methods>
+			<parameter name="userrole" value="manager"></parameter>
+					 <include name="verifyHomeScreen" />
+					 <include name="verifyMenuScreenByTappingMenuIcon" />
+					 <include name="verifyDataIsRefreshedAfterTappingonCTlogo" />
+					 <include name="verifyUserCanSwitchBetweenDates" />
+					 <include name="verifyUserChangesLocationPreviosly" />
+				</methods>
+			 </class>
+		 </classes>
+	</test>
+ -->
+</suite>

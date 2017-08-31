@@ -1,0 +1,2 @@
+START mvn install
+exit

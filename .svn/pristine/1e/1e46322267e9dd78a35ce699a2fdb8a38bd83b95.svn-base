@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium-Automation" parallel="tests" thread-count="5"
+	preserve-order="true" configfailurepolicy="continue" junit="false"
+	skipfailedinvocationcounts="false" data-provider-thread-count="10"
+	group-by-instances="false" allow-return-values="false">
+	<listeners>
+		<listener class-name="com.web.automation.listeners.ExecutionListener" />
+	</listeners>
+	<test name="Test-Desktop" junit="false"
+		skipfailedinvocationcounts="false" preserve-order="true"
+		group-by-instances="false" allow-return-values="false">
+		<parameter name="platform" value="windows" />
+		<parameter name="deviceType" value="desktop" />
+		<parameter name="environment" value="prod" />
+		<parameter name="userRegion" value="India" />
+		<parameter name="seleniumGrid" value="false" />
+		<parameter name="cloudExecution" value="false" />
+		<parameter name="emailReport" value="false" />
+		<groups>
+			<run>
+				<include name="smoke" />
+				<include name="regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.desktop.automation.scripts.DesktopValidation" />
+		</classes>
+	</test>
+</suite>

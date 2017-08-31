@@ -1,0 +1,7 @@
+17/08/2017 15:30:50	INFO 	HOOQ_Web_ActiveUser_AddingFavouriteMovies-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Testcase executed on the Node IP: localhost
+17/08/2017 15:30:50	INFO 	HOOQ_Web_ActiveUser_AddingFavouriteMovies-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		***** Dataprovider Iteration No: 1 : *****
+17/08/2017 15:31:18	INFO 	HOOQ_Web_ActiveUser_AddingFavouriteMovies-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for Login Verification
+17/08/2017 15:31:19	INFO 	HOOQ_Web_ActiveUser_AddingFavouriteMovies-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='card-block-form']/p[2]' element on 'A million stories for a billion people - HOOQ' page
+17/08/2017 15:32:43	INFO 	HOOQ_Web_ActiveUser_AddingFavouriteMovies-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for Search Result
+17/08/2017 15:32:43	INFO 	HOOQ_Web_ActiveUser_AddingFavouriteMovies-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: .//*[@class='search-result-title']/p' element on 'A million stories for a billion people - HOOQ' page
+17/08/2017 20:17:47	DEBUG	HOOQ_Web_ActiveUser_AddingFavouriteMovies-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Error: Element ([[ChromeDriver: chrome on MAC (b2d3894e2edf57bf8b8144d22f1690c9)] -> xpath: .//*[@id='btnAddToFavs']]) is not visible.

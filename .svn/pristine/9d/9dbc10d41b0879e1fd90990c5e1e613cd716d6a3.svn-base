@@ -1,0 +1,121 @@
+18/08/2017 00:24:22	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Testcase executed on the Node IP: localhost
+18/08/2017 00:24:22	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		***** Dataprovider Iteration No: 1 : *****
+18/08/2017 00:26:41	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:41	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[2]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:41	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:41	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[2]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:41	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:41	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[3]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:41	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:41	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[3]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:41	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:42	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[4]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:42	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:42	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[4]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:42	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:42	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[5]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:42	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:42	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[5]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:42	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:42	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[6]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:42	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:42	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[6]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:42	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:42	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[7]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:42	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:42	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[7]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:43	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:43	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[8]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:43	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:43	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[8]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:43	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:43	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[9]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:43	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:43	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[9]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:43	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:43	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[10]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:43	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:43	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[10]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:43	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:43	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[13]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:43	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:44	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[13]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:44	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:44	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[14]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:44	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:44	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[14]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:44	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:44	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[15]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:44	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:44	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[15]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:44	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:44	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[16]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:44	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:44	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[16]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:45	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:45	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[17]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:45	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:45	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[17]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:45	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:45	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[18]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:45	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:45	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[18]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:45	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:45	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[19]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:45	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:45	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[19]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:45	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:45	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[20]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:46	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:46	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[20]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:46	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:46	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[21]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:46	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:46	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[21]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:46	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:46	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[22]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:46	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:46	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[22]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:46	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:46	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[23]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:46	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:46	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[23]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:47	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:47	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[24]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:47	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:47	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[24]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:47	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:47	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[25]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:47	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:47	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[25]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:47	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:47	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[26]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:47	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:47	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[26]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:47	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:47	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[27]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:48	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:48	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[27]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:48	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:48	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[28]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:48	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:48	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[28]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:48	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:48	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[29]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:48	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:48	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[29]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:48	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:48	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[32]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:48	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:48	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[32]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:49	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:49	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[33]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:49	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:49	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[33]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:49	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:49	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[34]/td[1]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:26:49	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for ZAPPY Form Details
+18/08/2017 00:26:49	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[34]/td[2]' element on 'On-Boarding - Zappy Energy' page
+18/08/2017 00:27:20	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Get text for Successfull Entry Page
+18/08/2017 00:27:20	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Successfully find 'By.xpath: /html/body/div[2]/section/h1' element on 'Result - Zappy Energy' page
+18/08/2017 00:27:25	INFO 	ZAPPY_Automation_Demo-ZAPPY_Automation_Demo_1		Stopping the class

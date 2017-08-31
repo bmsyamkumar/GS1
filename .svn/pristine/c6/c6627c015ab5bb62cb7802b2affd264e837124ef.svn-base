@@ -1,0 +1,2 @@
+TestcaseName,ItrationCount,JiraTCID,Status,DeviceName,Method Description,JiraTestCaseId,Owner,TestCaseType
+tv.hooq.web.scripts.HOOQ_Web_ActiveUser_AddingFavouriteMovies.HOOQ_Web_ActiveUser_AddingFavouriteMovies,1,,FAIL,windows-chrome,HOOQ,null,null,null

@@ -1,0 +1,39 @@
+{
+"capabilities":
+                [
+                {
+								"platform": "WINDOWS",
+                                "browserName": "chrome",
+								"version": "Desktop",
+                                "maxInstances": 1,
+                                "seleniumProtocol": "WebDriver"
+                },
+                {
+								"platform": "WINDOWS",
+                                "browserName": "firefox",
+                                "maxInstances": 1,
+                                "seleniumProtocol": "WebDriver"
+                },
+				{
+								"platform": "WINDOWS",
+                                "browserName": "internet explorer",
+                                "maxInstances": 1,
+                                "seleniumProtocol": "WebDriver"
+                }
+                ],
+  "configuration":
+                {
+                                "cleanUpCycle": 5000,
+								"registerCycle": 5000,
+								"nodePolling": 2000,
+								"hub": "http://172.16.x.x:4444/grid/register",
+                                "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+                                "maxSession": 4,
+                                "port": 5555,
+                                "host": "172.16.x.x",
+                                "register": true,
+                                "hubPort": 4444,
+                                "hubHost" :"172.16.x.x",
+				"role": "node"
+                }
+}

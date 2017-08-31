@@ -1,0 +1,213 @@
+#########################################################################
+# List of URLs of different environments
+url=http://signupdemo.agilitycis.com/
+dev_url=http://signupdemo.agilitycis.com/
+qa_url=http://signupdemo.agilitycis.com/
+preprod_url=http://signupdemo.agilitycis.com/
+stag_url=http://signupdemo.agilitycis.com/
+prod_url=http://signupdemo.agilitycis.com/
+#www.cancer.org
+#########################################################################
+
+
+#########################################################################
+# Boolean status for local execution
+localExecution=true
+IsExcelRequired=false
+IsKeywordDrivenRequired=true
+IsFailedXMLRequired=true
+#########################################################################
+
+
+#########################################################################
+# Generic Configurations for execution >> mandatory for local execution
+environment=prod
+deviceType=chrome
+platform=mac
+machineIP =localhost
+clientName=
+browser_version = 47
+lacaleLang=en-ca
+state=California
+zip=10001
+#########################################################################
+
+
+
+#########################################################################
+# User Region and Time Zone
+userRegion = India
+usTimeZone =GMT-4
+#########################################################################
+
+#########################################################################
+# Implicit wait to load web page
+globalTimeOut =60
+#########################################################################
+
+
+#########################################################################
+# Grid Configurations
+seleniumGrid =false
+gridHubIP=localhost
+#########################################################################
+
+
+#########################################################################
+# Mobile and Simulators configuration
+appiumServerIP=0.0.0.0
+appiumPort = 4723
+androidDeviceName=57c514b5
+androidAutomationName=AppiumAutomation
+androidDeviceId=57c514b5
+chromedriverPort=9516
+bootStrapPort=5723
+Orientation = Portrait
+version= 6.0
+iPhoneDeviceName = iPhone 5
+iPadDeviceName = iPad 2
+Application_Version = 2.2
+locationServiceEnabled = false
+latitude=42.346886
+longitude=-71.075529
+macPlatformVersion=9.0
+iphoneUdId=
+appiumServerPath=%Userprofile%AppData\Local\Programs\appium-desktop\Appium.exe
+# Path Like - /Users/admin/Desktop/SafariLauncher.app
+safariLuancherPath=
+#########################################################################
+
+
+
+#########################################################################
+# Database Configurations
+dbServerName=jdbc:sqlserver://
+dbUserName=
+dbPassword=
+#########################################################################
+
+#########################################################################
+# Jira Configuration
+jiraAuth=
+jiraUrl=https://hnzcdemo.atlassian.net	
+jiraResultSheet=
+UpdateJira = true
+IsResultUploadInDrive=false
+IsJiraIntegrationRequired=yes
+#########################################################################
+
+
+#########################################################################
+# ALM QC Configuration
+QCURL=localhost
+QCPort=8081
+QAUser=admin
+QCPassword=admin
+QCDomain=DEFAULT
+QCProject=SampleProject
+#########################################################################
+
+#########################################################################
+# Configuration to kill active *.exe from task manager
+KillDriverBinaries = Yes
+#########################################################################
+
+
+#########################################################################
+#Email Report > Mandatory to mark it true, if required email notification.
+emailReport=false
+# credentials to send an email
+user_email=
+user_password=
+# Host name to send an email. Like, smtp.gmail.com, smtp.office365.com
+hostname=smtp.gmail.com
+# Port number to send an email. Like, 465,587
+email_port=465
+#########################################################################
+
+
+
+
+
+#########################################################################
+# BMP credentials
+IsBrowserMobProxyRequire=no
+urlSuppressCredential = http://google.co.in/
+isBMPAuthenticationRequired=no
+BMP_DomainName=google
+userAuthId=
+userAuthPwd=
+suppressCredential=userName:password
+#IP like 10.xx.
+proxyIPSeries=
+#########################################################################
+
+
+
+#########################################################################
+# Configurations for cloud - sauce lab
+cloudExecution=false
+sauceLabURL=
+# Access Password - 
+sauceLabUser=
+sauceLabKey=
+#########################################################################
+
+
+
+#########################################################################
+# Configurations for sitecore > content management
+urlSuppressCredentialSitecore=
+sitecore_url=
+sitecore_username=
+sitecore_password=
+#########################################################################
+
+
+#########################################################################
+# Configurations for Google Drive
+isGmailIntegrationRequired=no
+gmailUser=
+gmailPassword=
+p12KeyName=
+# Service Account Id like 12345677-piltal45gfgfnbddd@developer.gserviceaccount.com
+serviceAccountId=
+# SpreadSheet Service Name like GallopAutomation >> it is created during google drive configurations
+spreadSheetServiceName=
+spreadsheetNameToUploadInDrive=
+spreadsheetNameToCreateInDrive=
+gmailClientSecretFile=
+#Gmail User message Secret Like, 4KbWh3sss95_OdS9dCklpssNc-CmE
+gmailUserMessageSecret=
+#########################################################################
+
+
+
+#########################################################################
+# Configurations for Amazon Web Services
+isAWSExecution = false
+AWSMachineIP=
+#Access Key Like AKIAJxM2xxxxx
+amazonAccessKey=
+# Secret Key Like HRPlcn8QzmHACcpfgXVlFP7hYfrpVfIcadffddfyHj
+amazonSecretKey=
+# Edpoint Like ec2-203-0-113-25.compute-1.amazonaws.com, ec2.us-west-2.amazonaws.com
+amazonEndPoint=
+# Image Id Like 79aabcb249
+amazonInstanceImageId=
+amazonInstanceType=t2.micro
+#Key Name Like gallop-win
+amazonInstanceKeyName=
+# Group Id Like sg-038c2xxxxxx
+amazonGroupId=
+#########################################################################
+
+
+
+
+#########################################################################
+# Winium Configurations for Desktop Applications
+wininServerPath=localhost
+#C:/Program Files (x86)/TeamViewer/TeamViewer.exe
+desktopApplicatinPath=C:/Windows/System32/notepad.exe
+#########################################################################

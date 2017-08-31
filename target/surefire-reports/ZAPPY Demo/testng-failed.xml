@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ZAPPY Demo]">
+  <test verbose="2" name="ZAPPY test">
+    <classes>
+      <class name="com.web.poc.script.Agility_CIS_Automation_Demo"/>
+    </classes>
+  </test> <!-- ZAPPY test -->
+  <test name="ZAPPY test(failed)">
+    <classes>
+      <class name="com.web.poc.script.Agility_CIS_Automation_Demo">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="Agility_CIS_Automation_Demo"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.web.poc.script.Agility_CIS_Automation_Demo -->
+    </classes>
+  </test> <!-- ZAPPY test(failed) -->
+</suite> <!-- Failed suite [ZAPPY Demo] -->

@@ -1,0 +1,121 @@
+17/08/2017 23:52:57	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Testcase executed on the Node IP: localhost
+17/08/2017 23:52:57	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		***** Dataprovider Iteration No: 1 : *****
+17/08/2017 23:55:13	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:13	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[2]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:13	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:13	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[2]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:13	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:13	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[3]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:13	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:13	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[3]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:13	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:13	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[4]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:14	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:14	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[4]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:14	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:14	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[5]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:14	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:14	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[5]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:14	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:14	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[6]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:14	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:14	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[6]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:14	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:14	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[7]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:14	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:14	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[7]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:15	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:15	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[8]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:15	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:15	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[8]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:15	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:15	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[9]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:15	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:15	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[9]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:15	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:15	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[10]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:15	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:15	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[10]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:15	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:15	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[13]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:15	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:16	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[13]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:16	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:16	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[14]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:16	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:16	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[14]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:16	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:16	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[15]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:16	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:16	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[15]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:16	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:16	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[16]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:16	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:16	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[16]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:17	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:17	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[17]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:17	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:17	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[17]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:17	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:17	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[18]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:17	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:17	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[18]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:17	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:17	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[19]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:17	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:17	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[19]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:17	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:17	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[20]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:18	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:18	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[20]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:18	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:18	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[21]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:18	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:18	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[21]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:18	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:18	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[22]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:18	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:18	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[22]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:18	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:18	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[23]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:18	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:18	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[23]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:19	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:19	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[24]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:19	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:19	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[24]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:19	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:19	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[25]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:19	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:19	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[25]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:19	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:19	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[26]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:19	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:19	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[26]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:19	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:19	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[27]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:20	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:20	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[27]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:20	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:20	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[28]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:20	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:20	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[28]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:20	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:20	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[29]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:20	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:20	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[29]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:20	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:20	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[32]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:20	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:20	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[32]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:21	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:21	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[33]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:21	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:21	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[33]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:21	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:21	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[34]/td[1]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:21	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for ZAPPY Form Details
+17/08/2017 23:55:21	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: //*[@id='tblBody']/tr[34]/td[2]' element on 'On-Boarding - Zappy Energy' page
+17/08/2017 23:55:46	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Get text for Successfull Entry Page
+17/08/2017 23:55:46	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Successfully find 'By.xpath: /html/body/div[2]/section/h1' element on 'Result - Zappy Energy' page
+17/08/2017 23:55:52	INFO 	ZAPPY_Automation_Demo-HOOQ_Web_ActiveUser_AddingFavouriteMovies_1		Stopping the class

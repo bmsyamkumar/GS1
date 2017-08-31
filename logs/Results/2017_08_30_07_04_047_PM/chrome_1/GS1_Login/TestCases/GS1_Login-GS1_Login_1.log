@@ -1,0 +1,6 @@
+30/08/2017 19:05:49	INFO 	GS1_Login-GS1_Login_1		Testcase executed on the Node IP: localhost
+30/08/2017 19:05:49	INFO 	GS1_Login-GS1_Login_1		***** Dataprovider Iteration No: 1 : *****
+30/08/2017 19:06:05	INFO 	GS1_Login-GS1_Login_1		Successfully find 'By.id: user' element on 'Login to MyGS1' page
+30/08/2017 19:06:05	INFO 	GS1_Login-GS1_Login_1		Info. Element 'By.id: user' exists on 'Login to MyGS1' page.
+30/08/2017 19:06:36	INFO 	GS1_Login-GS1_Login_1		Successfully find 'By.linkText: Logout' element on 'ProductFlow Application' page
+30/08/2017 19:06:36	INFO 	GS1_Login-GS1_Login_1		Info. Element 'By.linkText: Logout' exists on 'ProductFlow Application' page.

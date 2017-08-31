@@ -1,0 +1,2 @@
+TestcaseName,ItrationCount,JiraTCID,Status,DeviceName,Method Description,JiraTestCaseId,Owner,TestCaseType
+com.web.poc.script.ZAPPY_Automation_Demo.HOOQ_Web_ActiveUser_AddingFavouriteMovies,1,,PASS,mac-chrome,ZAPPY,null,null,null

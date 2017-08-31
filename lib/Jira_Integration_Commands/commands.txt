@@ -1,0 +1,25 @@
+keytool -import -noprompt -trustcacerts -alias testjira -file test_jira.cer -keystore "C:\Program Files\Java\jdk1.7.0_45\jre\lib\security\cacerts"
+
+keytool –importcert –trustcacerts –alias testjira -file test_jira.cer -keystore "C:\Program Files\Java\jdk1.7.0_45\jre\lib\security\cacerts" -storepass changeit
+
+ -storepass <Password>
+ 
+ 
+ utnuserfirstobjectca
+ 
+ 
+ 77
+ 78
+ 79
+ http://www.dekho.com.au/help/32/default.htm?turl=Documents%2Faddingacertificateintothejavacertificatestore.htm
+ http://www.mkyong.com/webservices/jax-ws/suncertpathbuilderexception-unable-to-find-valid-certification-path-to-requested-target/
+ 
+ D:\Projects\test\Automation\Jira_Automation>keytool -importcert -trustcacerts -alias test_jira_new -file test_jira_new.cer -keystore "C:\Program Files\Java\jdk1.7.0_45\jre\lib\security\cacerts" -storepass changeit
+ 
+ keytool -list -keystore "%JAVA_HOME%/jre/lib/security/cacerts"
+ 
+ java SSLPoke confluence.test.com 443
+ java InstallCert jira.test.com:443
+
+ 
+ sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target

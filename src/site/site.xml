@@ -1,0 +1,14 @@
+<project xmlns="http://maven.apache.org/DECORATION/1.6.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/DECORATION/1.6.0 http://maven.apache.org/xsd/decoration-1.6.0.xsd">
+
+<bannerLeft>    
+  <href>https://www.cigniti.com</href>
+    <src>https://www.cigniti.com/wp-content/uploads/cigniti-logo-small-200x75.jpg</src>
+</bannerLeft>
+
+<bannerRight>    
+    <href></href>
+    <src>./images/logos/MilestoneLogo.png</src>
+</bannerRight>
+<body>
+</body>
+</project>>

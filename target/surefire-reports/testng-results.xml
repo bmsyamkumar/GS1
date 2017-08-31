@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="229303" started-at="2017-08-30T16:02:36Z" finished-at="2017-08-30T16:06:25Z">
+    <groups>
+      <group name="regression">
+        <method signature="GS1_HomePage.GS1_HomePage()[pri:0, instance:com.web.poc.script.GS1_HomePage@1f554b06]" name="GS1_HomePage" class="com.web.poc.script.GS1_HomePage"/>
+        <method signature="GS1_Login.GS1_Login()[pri:0, instance:com.web.poc.script.GS1_Login@1e6d1014]" name="GS1_Login" class="com.web.poc.script.GS1_Login"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="GS1_HomePage.GS1_HomePage()[pri:0, instance:com.web.poc.script.GS1_HomePage@1f554b06]" name="GS1_HomePage" class="com.web.poc.script.GS1_HomePage"/>
+        <method signature="GS1_Login.GS1_Login()[pri:0, instance:com.web.poc.script.GS1_Login@1e6d1014]" name="GS1_Login" class="com.web.poc.script.GS1_Login"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="229303" started-at="2017-08-30T16:02:36Z" finished-at="2017-08-30T16:06:25Z">
+      <class name="com.web.poc.script.GS1_Login">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.web.poc.script.GS1_Login@1e6d1014]" name="beforeSuite" is-config="true" duration-ms="131" started-at="2017-08-30T21:32:36Z" finished-at="2017-08-30T21:32:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c2d4cc6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:com.web.poc.script.GS1_Login@1e6d1014]" name="beforeTest" is-config="true" duration-ms="2077" started-at="2017-08-30T21:32:36Z" finished-at="2017-08-30T21:32:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c2d4cc6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.web.poc.script.GS1_Login@1e6d1014]" name="beforeClass" is-config="true" duration-ms="49807" started-at="2017-08-30T21:32:38Z" finished-at="2017-08-30T21:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.poc.script.GS1_Login@1e6d1014]" name="beforeMethod" is-config="true" duration-ms="1958" started-at="2017-08-30T21:33:28Z" finished-at="2017-08-30T21:33:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.web.poc.script.GS1_Login.GS1_Login() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.web.poc.script.GS1_Login@1e6d1014]" name="beforeMethod" is-config="true" duration-ms="3758" started-at="2017-08-30T21:33:30Z" finished-at="2017-08-30T21:33:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="GS1_Login()[pri:0, instance:com.web.poc.script.GS1_Login@1e6d1014]" name="GS1_Login" duration-ms="41112" started-at="2017-08-30T21:33:34Z" description="GS1" finished-at="2017-08-30T21:34:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GS1_Login -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.web.poc.script.GS1_Login@1e6d1014]" name="afterMethod" is-config="true" duration-ms="1434" started-at="2017-08-30T21:34:15Z" finished-at="2017-08-30T21:34:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.web.poc.script.GS1_Login.GS1_Login() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=GS1_Login status=SUCCESS method=GS1_Login.GS1_Login()[pri:0, instance:com.web.poc.script.GS1_Login@1e6d1014] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.web.poc.script.GS1_Login@1e6d1014]" name="afterClass" is-config="true" duration-ms="22890" started-at="2017-08-30T21:34:16Z" finished-at="2017-08-30T21:34:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.web.poc.script.GS1_Login@1e6d1014]" name="afterTest" is-config="true" duration-ms="8" started-at="2017-08-30T21:36:25Z" finished-at="2017-08-30T21:36:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.web.poc.script.GS1_Login@1e6d1014]" name="afterSuite" is-config="true" duration-ms="178" started-at="2017-08-30T21:36:25Z" finished-at="2017-08-30T21:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.web.poc.script.GS1_Login -->
+      <class name="com.web.poc.script.GS1_HomePage">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.web.poc.script.GS1_HomePage@1f554b06]" name="beforeClass" is-config="true" duration-ms="48849" started-at="2017-08-30T21:34:39Z" finished-at="2017-08-30T21:35:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.poc.script.GS1_HomePage@1f554b06]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2017-08-30T21:35:28Z" finished-at="2017-08-30T21:35:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.web.poc.script.GS1_HomePage.GS1_HomePage() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.web.poc.script.GS1_HomePage@1f554b06]" name="beforeMethod" is-config="true" duration-ms="73" started-at="2017-08-30T21:35:28Z" finished-at="2017-08-30T21:35:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="GS1_HomePage()[pri:0, instance:com.web.poc.script.GS1_HomePage@1f554b06]" name="GS1_HomePage" duration-ms="34957" started-at="2017-08-30T21:35:28Z" description="GS1" finished-at="2017-08-30T21:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GS1_HomePage -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.web.poc.script.GS1_HomePage@1f554b06]" name="afterMethod" is-config="true" duration-ms="34" started-at="2017-08-30T21:36:03Z" finished-at="2017-08-30T21:36:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.web.poc.script.GS1_HomePage.GS1_HomePage() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=GS1_HomePage status=SUCCESS method=GS1_HomePage.GS1_HomePage()[pri:0, instance:com.web.poc.script.GS1_HomePage@1f554b06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.web.poc.script.GS1_HomePage@1f554b06]" name="afterClass" is-config="true" duration-ms="22321" started-at="2017-08-30T21:36:03Z" finished-at="2017-08-30T21:36:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.web.poc.script.GS1_HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
