@@ -47,7 +47,7 @@ public class GS1_Login extends TestEngineWeb {
 			    //Information About Test Script
 				extentLogs.info("GS1 Login - Automation Demo","GS1 Login - Automation Demo from Cigniti");
 			
-				//GS1 Login
+				//GS1 L/ogin
 				boolean blnLogin=LoginPageWorkflow.fnLogin(testData);
 				if(blnLogin)
 				{
