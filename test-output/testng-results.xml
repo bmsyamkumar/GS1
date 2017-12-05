@@ -1,139 +1,277 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+<testng-results skipped="0" failed="5" ignored="0" total="8" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="289369" started-at="2017-08-30T15:27:01Z" finished-at="2017-08-30T15:31:51Z">
+  <suite name="Default suite" duration-ms="26051" started-at="2017-10-25T11:32:17Z" finished-at="2017-10-25T11:32:43Z">
     <groups>
-      <group name="regression">
-        <method signature="GS1_HomePage.GS1_HomePage()[pri:0, instance:com.web.poc.script.GS1_HomePage@b7dd107]" name="GS1_HomePage" class="com.web.poc.script.GS1_HomePage"/>
-        <method signature="GS1_Login.GS1_Login()[pri:0, instance:com.web.poc.script.GS1_Login@4671e53b]" name="GS1_Login" class="com.web.poc.script.GS1_Login"/>
-      </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="GS1_HomePage.GS1_HomePage()[pri:0, instance:com.web.poc.script.GS1_HomePage@b7dd107]" name="GS1_HomePage" class="com.web.poc.script.GS1_HomePage"/>
-        <method signature="GS1_Login.GS1_Login()[pri:0, instance:com.web.poc.script.GS1_Login@4671e53b]" name="GS1_Login" class="com.web.poc.script.GS1_Login"/>
-      </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="289369" started-at="2017-08-30T15:27:01Z" finished-at="2017-08-30T15:31:51Z">
-      <class name="com.web.poc.script.GS1_Login">
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.web.poc.script.GS1_Login@4671e53b]" name="beforeSuite" is-config="true" duration-ms="4962" started-at="2017-08-30T20:56:56Z" finished-at="2017-08-30T20:57:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@347bdeef]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:com.web.poc.script.GS1_Login@4671e53b]" name="beforeTest" is-config="true" duration-ms="2386" started-at="2017-08-30T20:57:01Z" finished-at="2017-08-30T20:57:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@347bdeef]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.web.poc.script.GS1_Login@4671e53b]" name="beforeClass" is-config="true" duration-ms="81899" started-at="2017-08-30T20:57:04Z" finished-at="2017-08-30T20:58:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.poc.script.GS1_Login@4671e53b]" name="beforeMethod" is-config="true" duration-ms="7143" started-at="2017-08-30T20:58:26Z" finished-at="2017-08-30T20:58:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.web.poc.script.GS1_Login.GS1_Login() throws java.lang.Throwable]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="26051" started-at="2017-10-25T11:32:17Z" finished-at="2017-10-25T11:32:43Z">
+      <class name="com.mobile.automation.scripts.Mobile_Demo">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2017-10-25T17:02:17Z" finished-at="2017-10-25T17:02:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.web.poc.script.GS1_Login@4671e53b]" name="beforeMethod" is-config="true" duration-ms="6640" started-at="2017-08-30T20:58:33Z" finished-at="2017-08-30T20:58:40Z">
+        <test-method status="FAIL" signature="HideKeyboardLockScreenRunAppInBackground()[pri:1, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="HideKeyboardLockScreenRunAppInBackground" duration-ms="3561" started-at="2017-10-25T17:02:17Z" finished-at="2017-10-25T17:02:21Z">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at com.mobile.automation.scripts.Mobile_Demo.HideKeyboardLockScreenRunAppInBackground(Mobile_Demo.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="GS1_Login()[pri:0, instance:com.web.poc.script.GS1_Login@4671e53b]" name="GS1_Login" duration-ms="52547" started-at="2017-08-30T20:58:40Z" description="GS1" finished-at="2017-08-30T20:59:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GS1_Login -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.web.poc.script.GS1_Login@4671e53b]" name="afterMethod" is-config="true" duration-ms="1890" started-at="2017-08-30T20:59:32Z" finished-at="2017-08-30T20:59:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.web.poc.script.GS1_Login.GS1_Login() throws java.lang.Throwable]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=GS1_Login status=SUCCESS method=GS1_Login.GS1_Login()[pri:0, instance:com.web.poc.script.GS1_Login@4671e53b] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- HideKeyboardLockScreenRunAppInBackground -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-10-25T17:02:21Z" finished-at="2017-10-25T17:02:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.web.poc.script.GS1_Login@4671e53b]" name="afterClass" is-config="true" duration-ms="23786" started-at="2017-08-30T20:59:34Z" finished-at="2017-08-30T20:59:58Z">
+        <test-method status="FAIL" signature="launchResetCloseAndRemoveApp()[pri:1, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="launchResetCloseAndRemoveApp" duration-ms="3087" started-at="2017-10-25T17:02:21Z" finished-at="2017-10-25T17:02:24Z">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at com.mobile.automation.scripts.Mobile_Demo.launchResetCloseAndRemoveApp(Mobile_Demo.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.web.poc.script.GS1_Login@4671e53b]" name="afterTest" is-config="true" duration-ms="41" started-at="2017-08-30T21:01:51Z" finished-at="2017-08-30T21:01:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.web.poc.script.GS1_Login@4671e53b]" name="afterSuite" is-config="true" duration-ms="121" started-at="2017-08-30T21:01:51Z" finished-at="2017-08-30T21:01:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.web.poc.script.GS1_Login -->
-      <class name="com.web.poc.script.GS1_HomePage">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.web.poc.script.GS1_HomePage@b7dd107]" name="beforeClass" is-config="true" duration-ms="45903" started-at="2017-08-30T20:59:58Z" finished-at="2017-08-30T21:00:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.poc.script.GS1_HomePage@b7dd107]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2017-08-30T21:00:44Z" finished-at="2017-08-30T21:00:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.web.poc.script.GS1_HomePage.GS1_HomePage() throws java.lang.Throwable]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- launchResetCloseAndRemoveApp -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-25T17:02:21Z" finished-at="2017-10-25T17:02:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.web.poc.script.GS1_HomePage@b7dd107]" name="beforeMethod" is-config="true" duration-ms="186" started-at="2017-08-30T21:00:44Z" finished-at="2017-08-30T21:00:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="GS1_HomePage()[pri:0, instance:com.web.poc.script.GS1_HomePage@b7dd107]" name="GS1_HomePage" duration-ms="44263" started-at="2017-08-30T21:00:44Z" description="GS1" finished-at="2017-08-30T21:01:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GS1_HomePage -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.web.poc.script.GS1_HomePage@b7dd107]" name="afterMethod" is-config="true" duration-ms="29" started-at="2017-08-30T21:01:28Z" finished-at="2017-08-30T21:01:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.web.poc.script.GS1_HomePage.GS1_HomePage() throws java.lang.Throwable]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=GS1_HomePage status=SUCCESS method=GS1_HomePage.GS1_HomePage()[pri:0, instance:com.web.poc.script.GS1_HomePage@b7dd107] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-10-25T17:02:24Z" finished-at="2017-10-25T17:02:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.web.poc.script.GS1_HomePage@b7dd107]" name="afterClass" is-config="true" duration-ms="22456" started-at="2017-08-30T21:01:28Z" finished-at="2017-08-30T21:01:51Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-25T17:02:24Z" finished-at="2017-10-25T17:02:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.web.poc.script.GS1_HomePage -->
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="mobileGesture()[pri:1, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="mobileGesture" duration-ms="3005" started-at="2017-10-25T17:02:24Z" finished-at="2017-10-25T17:02:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileGesture -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-25T17:02:27Z" finished-at="2017-10-25T17:02:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="pullPushFile()[pri:1, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="pullPushFile" duration-ms="3207" started-at="2017-10-25T17:02:27Z" finished-at="2017-10-25T17:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pullPushFile -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-25T17:02:27Z" finished-at="2017-10-25T17:02:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="setGeoLocationUseUiAutomatorMethodDirectly()[pri:1, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="setGeoLocationUseUiAutomatorMethodDirectly" duration-ms="3020" started-at="2017-10-25T17:02:30Z" finished-at="2017-10-25T17:02:33Z">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at com.mobile.automation.scripts.Mobile_Demo.setGeoLocationUseUiAutomatorMethodDirectly(Mobile_Demo.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setGeoLocationUseUiAutomatorMethodDirectly -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-25T17:02:30Z" finished-at="2017-10-25T17:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-25T17:02:30Z" finished-at="2017-10-25T17:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-25T17:02:33Z" finished-at="2017-10-25T17:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="switchBtwDifferentAppActivityAndScrollInList()[pri:1, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="switchBtwDifferentAppActivityAndScrollInList" duration-ms="4052" started-at="2017-10-25T17:02:33Z" finished-at="2017-10-25T17:02:37Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.mobile.automation.scripts.Mobile_Demo.switchBtwDifferentAppActivityAndScrollInList(Mobile_Demo.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchBtwDifferentAppActivityAndScrollInList -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-25T17:02:33Z" finished-at="2017-10-25T17:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-25T17:02:37Z" finished-at="2017-10-25T17:02:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="verifySwitchingBtwDifferentViews()[pri:1, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="verifySwitchingBtwDifferentViews" duration-ms="3026" started-at="2017-10-25T17:02:37Z" finished-at="2017-10-25T17:02:40Z">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at com.mobile.automation.scripts.Mobile_Demo.verifySwitchingBtwDifferentViews(Mobile_Demo.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySwitchingBtwDifferentViews -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-25T17:02:37Z" finished-at="2017-10-25T17:02:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-25T17:02:40Z" finished-at="2017-10-25T17:02:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="VerifyMobileGesturesOnRealDevice()[pri:2, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="VerifyMobileGesturesOnRealDevice" duration-ms="3016" started-at="2017-10-25T17:02:40Z" finished-at="2017-10-25T17:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMobileGesturesOnRealDevice -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-25T17:02:40Z" finished-at="2017-10-25T17:02:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.mobile.automation.scripts.Mobile_Demo@192d3247]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-10-25T17:02:43Z" finished-at="2017-10-25T17:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.mobile.automation.scripts.Mobile_Demo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

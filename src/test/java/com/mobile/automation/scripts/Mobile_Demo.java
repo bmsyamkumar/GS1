@@ -21,12 +21,14 @@ import com.mobile.automation.accelerators.MobileLocator;
 import com.mobile.automation.accelerators.MobileActionLibrary;
 
 public class Mobile_Demo {
-	@Test
+	
+	/*@Test
 	public void sampleMobile()
 	{
 		System.out.println("Sample");
-	}
-	/*@SuppressWarnings("raws")
+	}*/
+	
+	@SuppressWarnings("raws")
 	private static AndroidDriver driver;
 	private static MobileActionLibrary mob_actionLib;
 	public String appName = "test1.apk";
@@ -328,5 +330,5 @@ public class Mobile_Demo {
 			}
 		} catch (Exception e) {
 		}
-	}*/
+	}
 }

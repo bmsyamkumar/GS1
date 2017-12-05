@@ -60,6 +60,10 @@ public class GS1_HomePage extends TestEngineWeb {
 					testCaseStatus = false;
 				}
 				
+				
+				
+				
+				
 				//GS1 Verify Home page
 				boolean blnHomePageValidation=HomePageWorkflow.fnVerifyMainMenu();
 				if(blnHomePageValidation)

@@ -1,2 +1,0 @@
-TestcaseName,ItrationCount,JiraTCID,Status,DeviceName,Method Description,JiraTestCaseId,Owner,TestCaseType
-com.web.poc.script.ZAPPY_Automation_Demo.ZAPPY_Automation_Demo,1,,FAIL,mac-${browser},ZAPPY,null,null,null

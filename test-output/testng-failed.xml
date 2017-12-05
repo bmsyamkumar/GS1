@@ -3,20 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.web.poc.script.GS1_Login">
+      <class name="com.mobile.automation.scripts.Mobile_Demo">
         <methods>
-          <include name="afterSuite"/>
-          <include name="beforeSuite"/>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-          <include name="afterClass"/>
-          <include name="GS1_Login"/>
-          <include name="beforeClass"/>
-          <include name="beforeMethod"/>
-          <include name="beforeMethod"/>
+          <include name="HideKeyboardLockScreenRunAppInBackground"/>
+          <include name="switchBtwDifferentAppActivityAndScrollInList"/>
+          <include name="setGeoLocationUseUiAutomatorMethodDirectly"/>
+          <include name="launchResetCloseAndRemoveApp"/>
           <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="verifySwitchingBtwDifferentViews"/>
         </methods>
-      </class> <!-- com.web.poc.script.GS1_Login -->
+      </class> <!-- com.mobile.automation.scripts.Mobile_Demo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

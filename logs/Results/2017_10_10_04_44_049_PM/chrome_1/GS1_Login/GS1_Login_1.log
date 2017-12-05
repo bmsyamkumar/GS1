@@ -1,0 +1,4 @@
+10/10/2017 16:44:51	INFO 	GS1_Login_1		Staring the class
+10/10/2017 16:44:51	DEBUG	GS1_Login_1		In Before Class method inside TestEngineWeb.
+10/10/2017 16:45:00	INFO 	GS1_Login_1		Info: navigating URL : 'https://my.gs1nz.org/'
+10/10/2017 16:45:09	INFO 	GS1_Login_1		Stopping the class

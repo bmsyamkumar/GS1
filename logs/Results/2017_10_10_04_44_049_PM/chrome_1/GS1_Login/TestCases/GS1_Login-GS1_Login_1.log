@@ -1,0 +1,5 @@
+10/10/2017 16:45:07	INFO 	GS1_Login-GS1_Login_1		Testcase executed on the Node IP: localhost
+10/10/2017 16:45:07	INFO 	GS1_Login-GS1_Login_1		***** Dataprovider Iteration No: 1 : *****
+10/10/2017 16:45:09	INFO 	GS1_Login-GS1_Login_1		Stopping the class
+10/10/2017 16:45:31	INFO 	GS1_Login-GS1_Login_1		hello
+10/10/2017 16:45:31	INFO 	GS1_Login-GS1_Login_1		Staring the class
